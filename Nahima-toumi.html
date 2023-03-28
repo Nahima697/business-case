@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr" class="is-smooth-scroll-compatible is-loaded is-ready has-scroll-init has-scroll-smooth">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Business Case</title>
+    <script src="js/jquery-3.6.4.min.js"></script>
+    <link rel="stylesheet" href="/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css "/>
+    <link rel="stylesheet" href="css/style.css"> 
+    <link rel="stylesheet" href="css/locomotive-scroll.min.css"> 
+   
+    
+  </head>
+  <body>
+    <div data-scroll-container> 
+      <section id="intro" class="h-screen flex items-center justify-center text-center bg-green-200" data-scroll-section>
+        <div class="container px-5 mx-auto">
+          <h1 class="text-5xl font-bold" data-scroll data-scroll-repeat data-scroll-call="toggleBackToTop">A Simple Demo With <a class="underline" href="https://locomotivemtl.github.io/locomotive-scroll/" target="_blank">Locomotive Scroll</a></h1>
+          <p class="text-2xl mt-2">Scroll down 👇</p>
+        </div>
+      </section>
+      <header>
+        <!-- ICI NAVBAR -->
+      <section class="py-40" data-scroll-section>
+        <div class="lg:container px-5 mx-auto">
+          <nav>
+            <ul class="grid md:grid-flow-col gap-4 lg:gap-16 justify-center text-center">
+              <li>
+                <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#about-section" data-scroll-to>
+                  About
+                </a>
+              </li>
+              <li>
+                <a class="inline-block text-2xl font-medium px-4 py-2 border-4 border-double border-transparent hover:border-green-400 focus:border-green-400 rounded-md transition" href="#office" data-scroll-to>
+                  Office
+                </a>
+              </li>
+              ...
+            </ul>
+          </nav>      
+        </div>
+      </section>
+      </header>
+      <main>
+      <section id="about-section" class="py-40 bg-success" data-scroll-section>
+          <div id="pinSection" class="pinned-quote">
+              <blockquote data-scroll data-scroll-sticky data-scroll-target="#pinSection">
+              <h3 class="title">Transformez vos projets en NFT</h3>
+              <span class="post">Importez votre produit sur notre Marketplace</span>
+              <p>Time NFT est un concept innovant pour préserver et partager notre patrimoine culturel et historique grâce aux jetons non fongibles (NFT). Les NFT de Time NFT permettent de créer des représentations numériques uniques et vérifiables d'événements historiques, culturels ou autres, qui peuvent être explorés et expérimentés sous forme de réalité virtuelle, de 3D ou d'autres formats interactifs. Les investisseurs et les collectionneurs peuvent profiter d'expériences immersives et lucratives, en découvrant des lieux historiques, des objets, des événements ou des moments culturels significatifs.</p>
+              </blockquote>
+          </div>
+          <div class="images-container appear "data-scroll> 
+              <img class="img-fluid"src="images/augmented-reality-g5f18fe52a_640.jpg">
+              <img class="img-fluid"src="images/augmented-reality-g5f18fe52a_640.png" alt=""> 
+              <img class="img-fluid"src="images/metaverse-gc38861a6e_640.jpg" alt=""> 
+              <img class="img-fluid"src="images/cyber-glasses-gdf8df16f4_640.jpg" alt="">
+              <img class="img-fluid"src="images/augmented-reality-g5f18fe52a_640.jpg">
+              <img class="img-fluid"src="images/augmented-reality-g5f18fe52a_640.png" alt=""> 
+              <img class="img-fluid"src="images/metaverse-gc38861a6e_640.jpg" alt=""> 
+              <img class="img-fluid"src="images/cyber-glasses-gdf8df16f4_640.jpg" alt="">
+          </div>     
+      </section>
+      <section id="office" class="py-20" data-scroll-section>
+        <div class="sm:grid grid-cols-2 gap-40">
+          <figure class="flex items-end">
+            <img class="shadow-lg" width="1000" height="667" src="images/image NFT1.png" alt="" data-scroll data-scroll-speed="4.8">
+          </figure>
+          <figure>
+            <img class="shadow-lg" width="1000" height="1498" src="images/image 2NFT.png" alt="" data-scroll data-scroll-speed="1.2">
+          </figure>
+        </div>
+      </section>
+      <section id="services" class="relative py-60 " data-scroll-section>
+          <h2 class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 -skew-x-12 whitespace-nowrap text-6xl sm:text-9xl font-extrabold py-4">
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">T</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="2" data-scroll-call="randomizeTextColor">I</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">M</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="2" data-scroll-call="randomizeTextColor">E</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">N</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="2" data-scroll-call="randomizeTextColor">F</span>
+            <span class="inline-block" data-scroll data-scroll-repeat data-scroll-speed="3" data-scroll-call="randomizeTextColor">T</span>
+          </h2>
+          <div class="transform rotate-6 skew-x-12">
+            <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="20" data-scroll-target="#services">
+              <span class="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">La Time Capsule est un concept innovant pour préserver et partager notre patrimoine culturel et historique grâce aux jetons non fongibles (NFT). Les NFT de Time NFT permettent de créer des représentations numériques uniques et vérifiables d'événements historiques, culturels ou autres, qui peuvent être explorés et expérimentés sous forme de réalité virtuelle, de 3D ou d'autres formats interactifs. Les investisseurs et les collectionneurs peuvent profiter d'expériences immersives et lucratives, en découvrant des lieux historiques, des objets, des événements ou des moments culturels significatifs.</span>
+            </div>
+          </div>
+          <div class="transform -rotate-6 -skew-x-12 mt-40">
+            <div data-scroll data-scroll-direction="horizontal" data-scroll-speed="-20" data-scroll-target="#services">
+              <span class="text-3xl sm:text-4xl md:text-6xl 2xl:text-7xl bg-green-400 p-5 whitespace-nowrap">Des moments uniques au évenements historiques, découvrez le pouvoir de nos capsules NFT.
+              </span>
+            </div>
+          </div>
+      </section>
+      <section id="case-studies" class="text-center" data-scroll-section>...</section>
+      <section id="clients-section" class="py-40" data-scroll-section>...</section>
+      <section id="contact" class="py-80 border-t-2 border-solid border-gray-50" data-scroll-section>...</section>
+      <section class="h-screen flex items-center justify-center text-center bg-green-200" data-scroll-section>...</section>
+      <a class="back-to-top fixed bottom-24 right-4 text-red-500 hover:text-red-600 focus:text-red-600 transition opacity-0 invisible" href="#intro" role="button" aria-label="Back to top" data-scroll-to>  
+        <svg aria-hidden="true" xmlns="https://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24">
+          <path d="M12 0c-6.627 0-12 5.373-12 12s5.373 12 12 12 12-5.373 12-12-5.373-12-12-12zm0 7.58l5.995 5.988-1.416 1.414-4.579-4.574-4.59 4.574-1.416-1.414 6.006-5.988z" />
+        </svg>
+      </a>
+    </div>
+  
+  </main>
+  
+      <script src="./js/locomotive-scroll.min.js"></script>
+      <script src="./js/index.js"></script>
+      <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+      <script src="js/bootstrap.min.js"></script>
+      <script src="js/bootstrap.bundle.min.js"></script>
+    </body>
+  </html>         

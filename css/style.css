@@ -1,0 +1,330 @@
+footer {
+  background-color: #7AB5B6;
+}
+
+/* IMG HOVER SECTION CONCEPT */
+.notreconcept {
+  margin-top: 20vh;
+  text-align: center;
+}
+
+.cite {
+  font-size: 3vw;
+}
+
+.section-1 {
+  height: 100vh;
+  display: grid;
+  place-content: center;
+  padding: 0 1rem;
+}
+
+.perspective {
+  perspective: 900px;
+}
+
+.appear {
+  opacity: 0;
+  transform: tranlateY(100%) rotate(-80deg);
+  transform-origin: top-center;
+  transform-style: preserve-3d;
+  transition: 0.8s cubic-bezier(0.215, 0.61, 0.355, 1);
+}
+
+.appear.is-inview {
+  transition-delay: 1s;
+  opacity: 1;
+  transform: none;
+}
+
+#h1 {
+  transition-delay: 0.2s;
+}
+
+#h2-1 {
+  transition-delay: 0.6s;
+}
+
+#h2-2 {
+  transition-delay: 1.2s;
+}
+
+#buton {
+  transition-delay: 1.5s;
+}
+
+.timecapsule {
+  background-image: url("/images/abstract-extruded-voronoi-blocks-background-minimal-light-clean-corporate-wall-3d-geometric-surface-illustration-polygonal-elements-displacement.jpg");
+  background-position: fixed;
+  background-attachment: fixed;
+  background-size: cover;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+.section-2 {
+  height: calc(300vh + 32px + 16px);
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 40% 60%;
+}
+.section-2 blockquote {
+  font-size: 5vmin;
+  padding: 16px 16px 0 16px;
+}
+
+.images-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 0 8px;
+  gap: 20px;
+  margin-top: 16px;
+}
+.images-container img {
+  width: 100%;
+  max-height: 75vh;
+  height: 100%;
+  align-self: stretch;
+  object-fit: cover;
+}
+
+/* CATEGORIES*/
+.categorie .card-wrapper {
+  margin-bottom: 30px;
+}
+.categorie .card-image .card .card-img-wrapper {
+  height: 100%;
+}
+.categorie .card-image .card .card-body {
+  display: none;
+}
+.categorie .card-image-title-description .card .card-img-wrapper {
+  max-height: 160px;
+}
+.categorie .card-image-title-description .card {
+  position: relative;
+  min-height: 300px;
+}
+.categorie .card-image-title-description .card .card-body {
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-bottom: -70px;
+}
+.categorie .card-image-title-description .card:hover .card-body {
+  top: -70px;
+}
+.categorie .card-image-title-description .card .card-body .card-title {
+  margin-bottom: 0.75rem;
+}
+.categorie .card {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  height: 100%;
+}
+.categorie .card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.categorie .card-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  overflow: hidden;
+}
+.categorie .card-img-wrapper img {
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-img-wrapper img {
+  transform: scale(1.15);
+}
+.categorie .card-body .card-title {
+  margin-bottom: calc(50% + 20px);
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-body .card-title {
+  margin-bottom: 0.75rem;
+}
+.categorie .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #fff;
+  transition: 1.5s ease;
+}
+.categorie .card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-body {
+  height: 80%;
+}
+.categorie .card:hover .card-content {
+  bottom: 0;
+}
+.categorie body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ECE9E6, #FFFFFF);
+}
+.categorie .card-wrapper {
+  margin-bottom: 30px;
+}
+.categorie .card-image .card .card-img-wrapper {
+  height: 100%;
+}
+.categorie .card-image .card .card-body {
+  display: none;
+}
+.categorie .card-image-title-description .card .card-img-wrapper {
+  max-height: 160px;
+}
+.categorie .card-image-title-description .card {
+  position: relative;
+  min-height: 300px;
+}
+.categorie .card-image-title-description .card .card-body {
+  height: auto;
+  position: relative;
+  top: 0;
+  margin-bottom: -70px;
+}
+.categorie .card-image-title-description .card:hover .card-body {
+  top: -70px;
+}
+.categorie .card-image-title-description .card .card-body .card-title {
+  margin-bottom: 0.75rem;
+}
+.categorie .card {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  min-height: 400px;
+  height: 100%;
+}
+.categorie .card:hover {
+  box-shadow: 8px 12px 31px -10px #ab98ab;
+}
+.categorie .card-img-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  overflow: hidden;
+}
+.categorie .card-img-wrapper img {
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-img-wrapper img {
+  transform: scale(1.15);
+}
+.categorie .card-body .card-title {
+  margin-bottom: calc(50% + 20px);
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-body .card-title {
+  margin-bottom: 0.75rem;
+}
+.categorie .card-body {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 50%;
+  background-color: #fff;
+  transition: 1.5s ease;
+}
+.categorie .card-content {
+  left: 0;
+  right: 0;
+  overflow: hidden;
+  width: 100%;
+  height: auto;
+  transition: 1.5s ease;
+}
+.categorie .card:hover .card-body {
+  height: 80%;
+}
+.categorie .card:hover .card-content {
+  bottom: 0;
+}
+.categorie body {
+  margin: 0;
+  background-image: linear-gradient(to right, #ECE9E6, #FFFFFF);
+}
+
+@media screen and (min-width: 1401px) {
+  .container {
+    width: 1320px;
+  }
+}
+@media screen and (max-width: 1400px) {
+  .container {
+    width: 1140px;
+  }
+}
+@media screen and (max-width: 1200px) {
+  .container {
+    width: 960px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 992px) {
+  .container {
+    width: 720px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 768px) {
+  .container {
+    width: 540px;
+    flex-direction: column;
+  }
+}
+@media screen and (max-width: 576px) {
+  .container {
+    width: auto;
+    flex-direction: column;
+  }
+}
+.news .cards-wrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.news .card {
+  margin: 0 0.5em;
+  box-shadow: 2px 6px 8px 0 rgba(22, 22, 26, 0.18);
+  border: none;
+  border-radius: 0;
+}
+
+.news .carousel-inner {
+  padding: 1em;
+}
+
+.news .carousel-control-prev,
+.carousel-control-next {
+  background-color: #e1e1e1;
+  width: 5vh;
+  height: 5vh;
+  border-radius: 50%;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+@media (min-width: 768px) {
+  .news .card img {
+    height: 11em;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */
